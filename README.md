@@ -25,3 +25,19 @@ Both generate `lorenz_ensemble_predictability.png`.
 - `integrators.py` — Forward Euler integrator
 - `plotting.py` — Ensemble visualization
 - `run_lorenz_ensemble.py` — Driver script
+
+## PyPi instructions
+
+PyPi link: https://test.pypi.org/project/lorenz-project-maca4561/0.1.0/
+
+Install the package: 
+
+```bash
+pip install --index-url https://test.pypi.org/simple/ \
+    --extra-index-url https://pypi.org/simple/ \
+    lorenz-project-maca4561
+```
+
+```bash
+python run.py
+```
